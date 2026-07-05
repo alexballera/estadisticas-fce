@@ -82,20 +82,20 @@ El material esta organizado en 8 unidades dentro de `intensivo/`. Cada unidad ti
 
 | Carpeta | Tema |
 |---------|------|
-| `intensivo/u1-probabilidad/` | Probabilidad |
-| `intensivo/u2-va-discretas/` | Variables Aleatorias Discretas |
-| `intensivo/u3-va-continuas/` | Variables Aleatorias Continuas |
-| `intensivo/u4-va-bidimensionales/` | Variables Aleatorias Bidimensionales |
-| `intensivo/u5-estadisticas-descriptiva/` | Estadistica Descriptiva |
-| `intensivo/u6-muestreo-e-ic/` | Muestreo e Intervalos de Confianza |
-| `intensivo/u7-test-hipotesis/` | Test de Hipotesis |
-| `intensivo/u8-test-no-parametricos/` | Tests No Parametricos |
+| `sesiones/intensivo/u1-probabilidad/` | Probabilidad |
+| `sesiones/intensivo/u2-va-discretas/` | Variables Aleatorias Discretas |
+| `sesiones/intensivo/u3-va-continuas/` | Variables Aleatorias Continuas |
+| `sesiones/intensivo/u4-va-bidimensionales/` | Variables Aleatorias Bidimensionales |
+| `sesiones/intensivo/u5-estadisticas-descriptiva/` | Estadistica Descriptiva |
+| `sesiones/intensivo/u6-muestreo-e-ic/` | Muestreo e Intervalos de Confianza |
+| `sesiones/intensivo/u7-test-hipotesis/` | Test de Hipotesis |
+| `sesiones/intensivo/u8-test-no-parametricos/` | Tests No Parametricos |
 
-Cronograma del intensivo: `intensivo/Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf`
+Cronograma del intensivo: `sesiones/intensivo/Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf`
 
 ### Material de examen
-- Ejercicios digitalizados cap. 2, 3 y 4 en `regular/ejercicios/`.
-- Imagenes del Parcial 2 (junio 2026) en `regular/parcial2/`. Usar para simular condiciones de examen.
+- Ejercicios digitalizados cap. 2, 3 y 4 en `sesiones/regular/ejercicios/`.
+- Imagenes del Parcial 2 (junio 2026) en `sesiones/regular/parcial2/`. Usar para simular condiciones de examen.
 
 ### Tablas estadisticas
 Ubicar en `fuentes/tablas/`: Normal, t de Student, Chi-cuadrado, F de Snedecor, Binomial, Poisson, Fractiles.

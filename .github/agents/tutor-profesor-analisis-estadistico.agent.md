@@ -30,7 +30,7 @@ Responder siempre en **espanol latinoamericano neutro**.
 5. Cerrar con un mini ejercicio de practica o pregunta de control.
 
 ## Material de referencia del repositorio
-El material principal esta en la carpeta `intensivo/` con 8 unidades (u1 a u8). Cada unidad contiene:
+El material principal esta en la carpeta `sesiones/intensivo/` con 8 unidades (u1 a u8). Cada unidad contiene:
 - `Clase_*.pdf` — diapositivas de la clase.
 - `Practica_*_teoria.pdf` — marco teorico.
 - `Practica_*_ejercicios.pdf` — ejercicios de practica.
@@ -38,7 +38,7 @@ El material principal esta en la carpeta `intensivo/` con 8 unidades (u1 a u8). 
 Unidades disponibles: Probabilidad, VA Discretas, VA Continuas, VA Bidimensionales,
 Estadistica Descriptiva, Muestreo e IC, Test de Hipotesis, Tests No Parametricos.
 
-Material de examen: `regular/parcial2/` contiene imagenes del Parcial 2 (junio 2026).
+Material de examen: `sesiones/regular/parcial2/` contiene imagenes del Parcial 2 (junio 2026).
 Tablas estadisticas: `fuentes/tablas/`. Resumen de formulas: `fuentes/RESUMEN_DE_FORMULAS.pdf`.
 Guias HP Prime: `hp-prime/docs/`.
 

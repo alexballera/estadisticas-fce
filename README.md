@@ -2,7 +2,7 @@
 
 Repositorio de apoyo para la materia Analisis Estadistico de la carrera de Economia, Facultad de Ciencias Economicas (UBA).
 
-Concentra el material completo del curso intensivo de invierno, tablas estadisticas, bibliografia, documentacion de HP Prime y configuracion de entorno para practicar con Jupyter/Python.
+Concentra el material completo del curso intensivo de invierno, tablas estadisticas, bibliografia, documentacion de HP Prime y configuracion de entorno para practicar con Jupyter/Python. Todo el material de cursada esta organizado bajo `sesiones/`.
 
 ## Objetivo del proyecto
 
@@ -19,48 +19,49 @@ estadisticas-fce/
 ├── JUPYTER_GUIA.md
 ├── requirements.txt
 ├── start_jupyter.sh
-├── intensivo/
-│   ├── Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf
-│   ├── u1-probabilidad/
-│   │   ├── Clase_Probabilidad.pdf
-│   │   ├── Practica-1-Probabilidad_teoria.pdf
-│   │   └── Practica-1-Probabilidad_ejercicios.pdf
-│   ├── u2-va-discretas/
-│   │   ├── Clase_VA_Discretas.pdf
-│   │   ├── Practica_2_Variables_Aleatorias_Discretas_teoria.pdf
-│   │   └── Practica_2_Variables_Aleatorias_Discretas_Ejercicios.pdf
-│   ├── u3-va-continuas/
-│   │   ├── Clase_VA_Continuas.pdf
-│   │   ├── Practica_3_Variables_Aleatorias_Continuas_teoria.pdf
-│   │   └── Practica_3-VA-Continuas.pdf
-│   ├── u4-va-bidimensionales/
-│   │   ├── Clase_VA_Bidimensionales.pdf
-│   │   ├── Practica_4_VA_Bidimiensionales_teoria.pdf
-│   │   └── Practica_4_VA_Bidimiensionales.pdf
-│   ├── u5-estadisticas-descriptiva/
-│   │   ├── Clase_Descriptiva.pdf
-│   │   ├── Practica_5_Estadistica_Descriptiva_teoria.pdf
-│   │   └── Practica_5_Estadistica_Descriptiva.pdf
-│   ├── u6-muestreo-e-ic/
-│   │   ├── Clase_Muestreo_e_IC.pdf
-│   │   ├── Practica_6_Muestreo_e_IC_teoria.pdf
-│   │   └── Practica_6_Muestreo_e_IC.pdf
-│   ├── u7-test-hipotesis/
-│   │   ├── Clase_TH.pdf
-│   │   ├── Practica_7_Test_de_Hipotesis_teoria.pdf
-│   │   └── Practica_7_Test_de_Hipotesis.pdf
-│   └── u8-test-no-parametricos/
-│       ├── Clase_Estadistica_no_parametrica.pdf
-│       └── Practica_8_Estadistica_no_parametrica.pdf
-├── regular/
-│   ├── Analisis-Estadistico-Programa.pdf
-│   ├── Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf
-│   ├── ejercicios/
-│   │   ├── cap-2/  Ejercicios-Cap2-2025-08-23.pdf
-│   │   ├── cap-3/  Ejercicios-Cap3-2025-08-30.pdf
-│   │   └── cap-4/  ejercicio_4_5_validacion.py
-│   └── parcial2/
-│       └── [imagenes del parcial 2 - junio 2026]
+├── sesiones/
+│   ├── intensivo/
+│   │   ├── Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf
+│   │   ├── u1-probabilidad/
+│   │   │   ├── Clase_Probabilidad.pdf
+│   │   │   ├── Practica-1-Probabilidad_teoria.pdf
+│   │   │   └── Practica-1-Probabilidad_ejercicios.pdf
+│   │   ├── u2-va-discretas/
+│   │   │   ├── Clase_VA_Discretas.pdf
+│   │   │   ├── Practica_2_Variables_Aleatorias_Discretas_teoria.pdf
+│   │   │   └── Practica_2_Variables_Aleatorias_Discretas_Ejercicios.pdf
+│   │   ├── u3-va-continuas/
+│   │   │   ├── Clase_VA_Continuas.pdf
+│   │   │   ├── Practica_3_Variables_Aleatorias_Continuas_teoria.pdf
+│   │   │   └── Practica_3-VA-Continuas.pdf
+│   │   ├── u4-va-bidimensionales/
+│   │   │   ├── Clase_VA_Bidimensionales.pdf
+│   │   │   ├── Practica_4_VA_Bidimiensionales_teoria.pdf
+│   │   │   └── Practica_4_VA_Bidimiensionales.pdf
+│   │   ├── u5-estadisticas-descriptiva/
+│   │   │   ├── Clase_Descriptiva.pdf
+│   │   │   ├── Practica_5_Estadistica_Descriptiva_teoria.pdf
+│   │   │   └── Practica_5_Estadistica_Descriptiva.pdf
+│   │   ├── u6-muestreo-e-ic/
+│   │   │   ├── Clase_Muestreo_e_IC.pdf
+│   │   │   ├── Practica_6_Muestreo_e_IC_teoria.pdf
+│   │   │   └── Practica_6_Muestreo_e_IC.pdf
+│   │   ├── u7-test-hipotesis/
+│   │   │   ├── Clase_TH.pdf
+│   │   │   ├── Practica_7_Test_de_Hipotesis_teoria.pdf
+│   │   │   └── Practica_7_Test_de_Hipotesis.pdf
+│   │   └── u8-test-no-parametricos/
+│   │       ├── Clase_Estadistica_no_parametrica.pdf
+│   │       └── Practica_8_Estadistica_no_parametrica.pdf
+│   └── regular/
+│       ├── Analisis-Estadistico-Programa.pdf
+│       ├── Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf
+│       ├── ejercicios/
+│       │   ├── cap-2/  Ejercicios-Cap2-2025-08-23.pdf
+│       │   ├── cap-3/  Ejercicios-Cap3-2025-08-30.pdf
+│       │   └── cap-4/  ejercicio_4_5_validacion.py
+│       └── parcial2/
+│           └── [imagenes del parcial 2 - junio 2026]
 ├── fuentes/
 │   ├── RESUMEN_DE_FORMULAS.pdf
 │   ├── libros/
@@ -105,6 +106,8 @@ El material del intensivo esta organizado en 8 unidades, cada una con tres compo
 | U7 | Test de Hipotesis | Clase_TH.pdf | Practica_7-..._teoria.pdf | Practica_7-..._ejercicios.pdf |
 | U8 | Tests No Parametricos | Clase_Estadistica_no_parametrica.pdf | — | Practica_8-..._ejercicios.pdf |
 
+Ruta base: `sesiones/intensivo/u{N}-{tema}/`
+
 Flujo recomendado por unidad:
 1. Leer las diapositivas de clase (Clase_*.pdf) para la vision general.
 2. Estudiar el marco teorico (Practica_*_teoria.pdf) con definiciones y formulas.
@@ -129,11 +132,11 @@ Mas detalle tecnico en JUPYTER_GUIA.md.
 ## Recursos clave para alumnos
 
 Cronograma del intensivo:
-- `intensivo/Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf`
+- `sesiones/intensivo/Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf`
 
 Cronograma y programa del cuatrimestre regular:
-- `regular/Analisis-Estadistico-Programa.pdf`
-- `regular/Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf`
+- `sesiones/regular/Analisis-Estadistico-Programa.pdf`
+- `sesiones/regular/Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf`
 
 Bibliografia de referencia (`fuentes/libros/`):
 - Bacchini (2018) - Introduccion a la probabilidad y a la estadistica.
@@ -149,8 +152,8 @@ HP Prime (`hp-prime/docs/`):
 - Probabilidad, Variables Aleatorias, Variables Continuas, Numeros Complejos.
 
 Material de examen:
-- Ejercicios cap. 2, 3 y 4 con fechas en `regular/ejercicios/`.
-- Imagenes del Parcial 2 (junio 2026) en `regular/parcial2/`.
+- Ejercicios cap. 2, 3 y 4 con fechas en `sesiones/regular/ejercicios/`.
+- Imagenes del Parcial 2 (junio 2026) en `sesiones/regular/parcial2/`.
 
 ## Tutor IA del proyecto
 
@@ -173,7 +176,7 @@ Uso sugerido del tutor:
 
 ## Estado actual
 
-El material del intensivo de invierno (8 unidades) esta completo con clases, teoria y ejercicios. El material del cuatrimestre regular cubre hasta el capitulo 4 con ejercicios digitalizados y el Parcial 2 de junio 2026 disponible en `regular/parcial2/`.
+El material del intensivo de invierno (8 unidades) esta completo con clases, teoria y ejercicios en `sesiones/intensivo/`. El material del cuatrimestre regular cubre hasta el capitulo 4 con ejercicios digitalizados y el Parcial 2 de junio 2026 en `sesiones/regular/parcial2/`.
 
 ## Licencia
 
