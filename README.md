@@ -2,12 +2,12 @@
 
 Repositorio de apoyo para la materia Analisis Estadistico de la carrera de Economia, Facultad de Ciencias Economicas (UBA).
 
-Este espacio concentra material de estudio, tablas de referencia, documentacion de HP Prime y configuracion de entorno para practicar con Jupyter/Python.
+Concentra el material completo del curso intensivo de invierno, tablas estadisticas, bibliografia, documentacion de HP Prime y configuracion de entorno para practicar con Jupyter/Python.
 
 ## Objetivo del proyecto
 
-- Centralizar fuentes academicas de la cursada.
-- Facilitar estudio teorico y preparacion de parciales.
+- Centralizar el material del intensivo (clases, teoria y ejercicios por unidad).
+- Facilitar el estudio teorico y la preparacion de parciales.
 - Dar una base reproducible para trabajo con Python.
 - Integrar verificacion de resultados con HP Prime.
 
@@ -19,21 +19,62 @@ estadisticas-fce/
 ├── JUPYTER_GUIA.md
 ├── requirements.txt
 ├── start_jupyter.sh
-├── AGENTS.md
+├── intensivo/
+│   ├── Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf
+│   ├── u1-probabilidad/
+│   │   ├── Clase_Probabilidad.pdf
+│   │   ├── Practica-1-Probabilidad_teoria.pdf
+│   │   └── Practica-1-Probabilidad_ejercicios.pdf
+│   ├── u2-va-discretas/
+│   │   ├── Clase_VA_Discretas.pdf
+│   │   ├── Practica_2_Variables_Aleatorias_Discretas_teoria.pdf
+│   │   └── Practica_2_Variables_Aleatorias_Discretas_Ejercicios.pdf
+│   ├── u3-va-continuas/
+│   │   ├── Clase_VA_Continuas.pdf
+│   │   ├── Practica_3_Variables_Aleatorias_Continuas_teoria.pdf
+│   │   └── Practica_3-VA-Continuas.pdf
+│   ├── u4-va-bidimensionales/
+│   │   ├── Clase_VA_Bidimensionales.pdf
+│   │   ├── Practica_4_VA_Bidimiensionales_teoria.pdf
+│   │   └── Practica_4_VA_Bidimiensionales.pdf
+│   ├── u5-estadisticas-descriptiva/
+│   │   ├── Clase_Descriptiva.pdf
+│   │   ├── Practica_5_Estadistica_Descriptiva_teoria.pdf
+│   │   └── Practica_5_Estadistica_Descriptiva.pdf
+│   ├── u6-muestreo-e-ic/
+│   │   ├── Clase_Muestreo_e_IC.pdf
+│   │   ├── Practica_6_Muestreo_e_IC_teoria.pdf
+│   │   └── Practica_6_Muestreo_e_IC.pdf
+│   ├── u7-test-hipotesis/
+│   │   ├── Clase_TH.pdf
+│   │   ├── Practica_7_Test_de_Hipotesis_teoria.pdf
+│   │   └── Practica_7_Test_de_Hipotesis.pdf
+│   └── u8-test-no-parametricos/
+│       ├── Clase_Estadistica_no_parametrica.pdf
+│       └── Practica_8_Estadistica_no_parametrica.pdf
+├── regular/
+│   ├── Analisis-Estadistico-Programa.pdf
+│   ├── Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf
+│   ├── ejercicios/
+│   │   ├── cap-2/  Ejercicios-Cap2-2025-08-23.pdf
+│   │   ├── cap-3/  Ejercicios-Cap3-2025-08-30.pdf
+│   │   └── cap-4/  ejercicio_4_5_validacion.py
+│   └── parcial2/
+│       └── [imagenes del parcial 2 - junio 2026]
 ├── fuentes/
-│   ├── fce/
-│   │   ├── Analisis-Estadistico-Programa.pdf
-│   │   ├── Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf
+│   ├── RESUMEN_DE_FORMULAS.pdf
+│   ├── libros/
+│   │   ├── Bacchini_Introduccion-a-la-probabilidad-y-a-la-estadistica-2018.pdf
 │   │   ├── CAVIEZEL-(540)-Guia-de-trabajos-practicos.pdf
 │   │   └── [1988] Probabilidad y Estadistica.pdf
-│   ├── TablaNormal.pdf
-│   ├── TablaTdeStudent.pdf
-│   ├── TablaChi2.pdf
-│   ├── TablaFdeFisher-Snedecor.pdf
-│   ├── TablaBinomial.pdf
-│   ├── TablaPoisson.pdf
-│   ├── TablaNormalFractiles.pdf
-│   └── RESUMEN_DE_FORMULAS.pdf
+│   └── tablas/
+│       ├── Tabla_Normal.pdf / TablaNormal.pdf
+│       ├── Tabla_T_de_Student.pdf / TablaTdeStudent.pdf
+│       ├── Tabla_Chi2.pdf / TablaChi2.pdf
+│       ├── Tabla_F_de_Snedecor.pdf / TablaFdeFisher-Snedecor.pdf
+│       ├── Tabla_Binomial.pdf / TablaBinomial.pdf
+│       ├── Tabla_Poisson.pdf / TablaPoisson.pdf
+│       └── Tabla_Normal_Fractiles.pdf / TablaNormalFractiles.pdf
 ├── hp-prime/
 │   ├── docs/
 │   │   ├── Guia_HP_Prime_Probabilidad.md
@@ -41,7 +82,7 @@ estadisticas-fce/
 │   │   ├── Guia_HP_Prime_Variables_Continuas.md
 │   │   └── Guia_Rapida_HP_Prime_Complejos.md
 │   └── manuales/
-│       └── manuales oficiales PDF
+│       └── [manuales oficiales HP Prime en PDF]
 └── .github/
     ├── copilot-instructions.md
     ├── prompts/
@@ -49,22 +90,31 @@ estadisticas-fce/
     └── skills/
 ```
 
-## Como estudiar con este repositorio
+## Ruta de estudio: Intensivo de invierno
 
-1. Leer el programa y cronograma en fuentes/fce para ubicar contenidos y fechas.
-2. Estudiar teoria con bibliografia y guia de trabajos practicos.
-3. Resolver ejercicios usando tablas estadisticas de fuentes.
-4. Verificar calculos con guias de hp-prime/docs.
-5. Repetir ejercicios en Python/Jupyter para automatizar procedimientos.
+El material del intensivo esta organizado en 8 unidades, cada una con tres componentes:
+
+| Unidad | Tema | Clase | Teoria | Ejercicios |
+|--------|------|-------|--------|------------|
+| U1 | Probabilidad | Clase_Probabilidad.pdf | Practica-1-..._teoria.pdf | Practica-1-..._ejercicios.pdf |
+| U2 | VA Discretas | Clase_VA_Discretas.pdf | Practica_2-..._teoria.pdf | Practica_2-..._Ejercicios.pdf |
+| U3 | VA Continuas | Clase_VA_Continuas.pdf | Practica_3-..._teoria.pdf | Practica_3-VA-Continuas.pdf |
+| U4 | VA Bidimensionales | Clase_VA_Bidimensionales.pdf | Practica_4-..._teoria.pdf | Practica_4-..._ejercicios.pdf |
+| U5 | Estadistica Descriptiva | Clase_Descriptiva.pdf | Practica_5-..._teoria.pdf | Practica_5-..._ejercicios.pdf |
+| U6 | Muestreo e IC | Clase_Muestreo_e_IC.pdf | Practica_6-..._teoria.pdf | Practica_6-..._ejercicios.pdf |
+| U7 | Test de Hipotesis | Clase_TH.pdf | Practica_7-..._teoria.pdf | Practica_7-..._ejercicios.pdf |
+| U8 | Tests No Parametricos | Clase_Estadistica_no_parametrica.pdf | — | Practica_8-..._ejercicios.pdf |
+
+Flujo recomendado por unidad:
+1. Leer las diapositivas de clase (Clase_*.pdf) para la vision general.
+2. Estudiar el marco teorico (Practica_*_teoria.pdf) con definiciones y formulas.
+3. Resolver los ejercicios de practica (Practica_*_ejercicios.pdf).
+4. Verificar calculos con las guias de HP Prime en hp-prime/docs/.
+5. Repasar con tablas estadisticas en fuentes/tablas/.
 
 ## Guia rapida para entorno Python
 
-Requisitos minimos:
-- Python 3.10 o superior.
-- Entorno virtual activo.
-- Dependencias de requirements.txt.
-
-Pasos recomendados:
+Requisitos minimos: Python 3.10+, entorno virtual activo, dependencias de requirements.txt.
 
 ```bash
 python3 -m venv .venv
@@ -78,26 +128,38 @@ Mas detalle tecnico en JUPYTER_GUIA.md.
 
 ## Recursos clave para alumnos
 
-Documentos de catedra:
-- Programa oficial y cronograma en fuentes/fce.
-- Guia de trabajos practicos en fuentes/fce/CAVIEZEL-(540)-Guia-de-trabajos-practicos.pdf.
+Cronograma del intensivo:
+- `intensivo/Cronograma_Analisis_Estadistico_I_Intensivo_invierno.pdf`
 
-Tablas y formularios:
-- Normal, t de Student, Chi-cuadrado, F, Binomial y Poisson en fuentes/.
-- Resumen de formulas en fuentes/RESUMEN_DE_FORMULAS.pdf.
+Cronograma y programa del cuatrimestre regular:
+- `regular/Analisis-Estadistico-Programa.pdf`
+- `regular/Analisis-Estadistico-Cronograma-1T2026-LuMiJu.pdf`
 
-HP Prime:
-- Procedimientos por tema en hp-prime/docs.
-- Manuales completos en hp-prime/manuales.
+Bibliografia de referencia (`fuentes/libros/`):
+- Bacchini (2018) - Introduccion a la probabilidad y a la estadistica.
+- Caviezel (540) - Guia de trabajos practicos.
+- Probabilidad y Estadistica [1988].
+
+Tablas estadisticas (`fuentes/tablas/`):
+- Normal, t de Student, Chi-cuadrado, F de Snedecor, Binomial, Poisson y Fractiles.
+
+Resumen de formulas: `fuentes/RESUMEN_DE_FORMULAS.pdf`
+
+HP Prime (`hp-prime/docs/`):
+- Probabilidad, Variables Aleatorias, Variables Continuas, Numeros Complejos.
+
+Material de examen:
+- Ejercicios cap. 2, 3 y 4 con fechas en `regular/ejercicios/`.
+- Imagenes del Parcial 2 (junio 2026) en `regular/parcial2/`.
 
 ## Tutor IA del proyecto
 
 El repositorio incluye personalizaciones de Copilot para asistencia academica:
-- Skill: .github/skills/tutor-profesor-analisis-estadistico/SKILL.md
-- Agente: .github/agents/tutor-profesor-analisis-estadistico.agent.md
+- Skill: `.github/skills/tutor-profesor-analisis-estadistico/SKILL.md`
+- Agente: `.github/agents/tutor-profesor-analisis-estadistico.agent.md`
 
 Uso sugerido del tutor:
-- pedir explicaciones paso a paso;
+- pedir explicaciones paso a paso de cualquier unidad del intensivo;
 - preparar parciales con formato de resolucion;
 - validar interpretacion economica de resultados estadisticos;
 - comparar metodos (distribuciones, tests, estimadores).
@@ -107,11 +169,11 @@ Uso sugerido del tutor:
 - Escribir siempre datos, supuestos y formula antes de calcular.
 - Verificar si el metodo elegido corresponde al tipo de variable/muestra.
 - Reportar resultado numerico y conclusion en lenguaje economico.
-- Controlar errores comunes: unidades, redondeo, y lectura de tablas.
+- Controlar errores comunes: unidades, redondeo y lectura de tablas.
 
 ## Estado actual
 
-Este repositorio se encuentra en evolucion continua. Si faltan notebooks o practicas digitalizadas, se iran incorporando progresivamente respetando el programa de la materia.
+El material del intensivo de invierno (8 unidades) esta completo con clases, teoria y ejercicios. El material del cuatrimestre regular cubre hasta el capitulo 4 con ejercicios digitalizados y el Parcial 2 de junio 2026 disponible en `regular/parcial2/`.
 
 ## Licencia
 
